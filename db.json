@@ -12,3 +12,7 @@
     "name": "typicode"
   }
 }
+{
+  { "NIM": "125060400111044", "Nama": "Isyana Sarasvati", "Jurusan": "Teknik Informatika", "Fakultas": "Filkom", "Alamat": "Jl. Suka Nyanyi", "NoHp": "081234567890"},
+				{ "NIM": "135060401111005", "Nama": "Marion Jola", "Jurusan": "komunikasi", "Fakultas": "FISIP", "Alamat": "Kec. Wakanda", "NoHp": "08765432109" },
+				{ "NIM": "165150201111076", "Nama": "Fadira Bima Syahril", "Jurusan": "Teknik Informatika", "Fakultas": "FILKOM", "Alamat": "Jl. Sumbersari Gg. IV", "NoHp": "081332969532"}}
