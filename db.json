@@ -1,14 +1,17 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+<?php
+
+//require("mahasiswa.php");
+
+//var $dataObject;
+ $dadataObject = {{ "NIM": "125060400111044", "Nama": "Isyana Sarasvati", "Jurusan": "Teknik Informatika", "Fakultas": "Filkom", "Alamat": "Jl. Suka Nyanyi", "NoHp": "081234567890"},
+				{ "NIM": "135060401111005", "Nama": "Marion Jola", "Jurusan": "komunikasi", "Fakultas": "FISIP", "Alamat": "Kec. Wakanda", "NoHp": "08765432109" },
+				{ "NIM": "165150201111076", "Nama": "Fadira Bima Syahril", "Jurusan": "Teknik Informatika", "Fakultas": "FILKOM", "Alamat": "Jl. Sumbersari Gg. IV", "NoHp": "081332969532"}};
+
+//$dataMhs[] = new Mahasiswa(125060400111044,"Isyana Sarasvati","Teknik Informatika","Filkom","Jl. Suka Nyanyi","081234567890");
+//$dataMhs[] = new Mahasiswa( 135060401111005, "Marion Jola", "komunikasi", "FISIP", "Kec. Wakanda", "08765432109");
+//$dataMhs[] = new Mahasiswa( 165150201111076,  "Fadira Bima Syahril",  "Teknik Informatika", "FILKOM",  "Jl. Sumbersari Gg. IV",  "081332969532");
+header('Content-Type: application/json;charset=utf-8');
+echo json_encode($dataObject);
+
+?>
+
